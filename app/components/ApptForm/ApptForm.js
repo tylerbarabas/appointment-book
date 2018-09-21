@@ -172,7 +172,7 @@ export default class ApptForm extends React.Component {
             {this.getErrors()}
             <form onSubmit={this.submitForm.bind(this)}>
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" placeholder="John Smith" onChange={this.fieldChange.bind(this)} value={this.state.name } />
+              <input type="text" id="name" placeholder="ex: John Smith" onChange={this.fieldChange.bind(this)} value={this.state.name } />
               <label htmlFor="date">Date</label>
               <div style={dpStyles}>
                 <DatePicker id="date" selected={Moment(this.state.date)} onChange={this.dateChange.bind(this)}/>
