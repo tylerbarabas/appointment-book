@@ -1,4 +1,5 @@
 # appointment-book
+An appointment book app created with React/Redux/Immutable/Express.
 
 Use yarn `npm install -g yarn`
 
