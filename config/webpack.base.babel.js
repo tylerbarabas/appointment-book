@@ -97,6 +97,9 @@ module.exports = (options) => ({
     })
   ]),
   resolve: {
+    alias: {
+      moment$: 'moment/moment.js',
+    },
     modules: ['app', 'node_modules'],
     extensions: [
       '.js',
